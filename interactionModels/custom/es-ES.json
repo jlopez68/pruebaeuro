@@ -1,0 +1,163 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "portafolio productos eurofarma",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hola",
+            "como estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "PrincipioActivo",
+          "slots": [
+            {
+              "name": "questionType",
+              "type": "QuestionTypes"
+            }
+          ],
+          "samples": [
+            "Cual es el Principio Activo de {questionType}"
+          ]
+        },
+        {
+          "name": "Presentaciones",
+          "slots": [
+            {
+              "name": "questionType",
+              "type": "QuestionTypes"
+            }
+          ],
+          "samples": [
+            "Cuales son las Presentaciones de {questionType}"
+          ]
+        },
+        {
+          "name": "Indicaciones",
+          "slots": [
+            {
+              "name": "questionType",
+              "type": "QuestionTypes"
+            }
+          ],
+          "samples": [
+            "Cuales son las Indicaciones de {questionType}"
+          ]
+        },
+        {
+          "name": "Countries",
+          "slots": [
+            {
+              "name": "questionType",
+              "type": "QuestionTypes"
+            }
+          ],
+          "samples": [
+            "En que paises esta disponible {questionType}",
+            "donde {questionType} está disponible",
+            "Países {questionType} está disponible",
+            "Países donde {questionType} está disponible"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Sucralfato",
+                "synonyms": [
+                  "Sucralgastric"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Levosulpiride",
+                "synonyms": [
+                  "Prokinetic"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Clonixinato de Lisina +  Propinoxato Clorhidrato",
+                "synonyms": [
+                  "Dorcol Forte",
+                  "Propinoxato Clorhidrato",
+                  "Clonixinato de Lisina"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Metiom H. Pylori",
+                "synonyms": [
+                  "Metiom pylori"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Metiom S"
+              }
+            },
+            {
+              "name": {
+                "value": "Metiom"
+              }
+            },
+            {
+              "name": {
+                "value": "Colica"
+              }
+            },
+            {
+              "name": {
+                "value": "Peglax 3350",
+                "synonyms": [
+                  "Peglax three thousand three hundred fifty",
+                  "Peglax three three five zero"
+                ]
+              }
+            },
+            {
+              "name": {
+                "value": "Gastroflux"
+              }
+            },
+            {
+              "name": {
+                "value": "Milenium"
+              }
+            }
+          ],
+          "name": "QuestionTypes"
+        }
+      ]
+    }
+  },
+  "version": "16"
+}
